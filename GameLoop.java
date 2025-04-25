@@ -55,6 +55,7 @@ public class GameLoop extends AnimationTimer {
             fireboy.jump();
         }
      
+        
         // 处理重力
         fireboy.applyPhysics(deltaTime);
         watergirl.applyPhysics(deltaTime);
